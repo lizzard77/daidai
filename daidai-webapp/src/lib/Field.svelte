@@ -55,7 +55,7 @@
             {/each}
         </div>
 
-        <div class="m-8 flex flex-wrap flex-row md:flex-col h-48">
+        <div class="m-8 flex flex-wrap flex-row md:flex-col h-48 md:w-48">
             {#each found as f}
             <Found front={f.front} />
             {/each}

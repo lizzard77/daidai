@@ -3,7 +3,7 @@
 </script>
 
 <div class="w-16 h-16 m-1 relative">
-    <div class="side m-2 rounded-full w-16 h-16 bg-blue-500 text-center">{front}</div>
+    <div class="side m-2 rounded-full w-16 h-16 bg-blue-500 text-center"><img src="/assets/male_{front}.jpg" alt="" /></div>
 </div>
 
 <style>

@@ -29,7 +29,7 @@
 			
 <div class="w-24 h-24 m-1 relative" on:click={flip}>
     {#if showFront}
-        <div transition:flipEffect class="side bg-orange-500">{front}</div>
+        <div transition:flipEffect class="side bg-orange-500"><img src="/assets/male_{front}.jpg" alt="" /></div>
     {:else if !found}
         <div transition:flipEffect class="side bg-black" title={front}>{back}</div>
     {:else}
